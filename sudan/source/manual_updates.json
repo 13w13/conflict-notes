@@ -1,0 +1,27 @@
+{
+ "_doc": "Corrections et ajouts faits a la main au releve Wikipedia (dernier releve : 17 aout 2026). kind=fix : la carte source se trompe ou n'a pas de releve pour la periode. kind=update : changement posterieur au 17 aout 2026, retenu seulement si deux sources independantes le rapportent comme un fait. kind=contested : annonce d'un seul camp ou sources divergentes, la ville passe en 'dispute'. 'add' cree une ville absente de la carte source. Verifie le 11 novembre 2026.",
+ "updates": [
+  {"town": "Nyala", "from": "2023-04", "to": "2023-09", "status": "x", "kind": "fix",
+   "note": "La carte source donne Nyala aux RSF d'avril a juin 2023. La ville etait disputee : l'armee tenait la base de la 16e division, tombee le 26 octobre 2023.",
+   "sources": ["https://www.dabangasudan.org/en?p=20060169", "https://sudanwarmonitor.com/p/fall-of-nyala-and-zalingei-garrisons"]},
+  {"town": "Ed Daein", "from": "2023-04", "to": "2023-10", "status": "x", "kind": "fix",
+   "note": "La carte source donne Ed Daein aux RSF des avril 2023. La garnison de la 20e division est restee en place jusqu'au 21 novembre 2023, sans combats, par arrangement local.",
+   "sources": ["https://www.dabangasudan.org/en?p=20060169", "https://radiotamazuj.org/en/news/article/rizeigat-leaders-avert-armed-conflict-in-el-daein"]},
+  {"town": "Al Muthalathu", "from": "2025-06", "to": "2025-12", "status": "rsf", "kind": "fix",
+   "note": "Triangle frontalier Libye-Egypte. L'armee s'en retire le 11 juin 2025, les RSF l'occupent. La carte source ne l'affiche qu'a partir de janvier 2026.",
+   "sources": ["https://www.aljazeera.com/news/2025/6/11/sudans-paramilitary-rsf-say-they-seized-key-zone-bordering-egypt-libya", "https://sudanwarmonitor.com/p/rsf-captures-libya-triangle"]},
+  {"town": "Sodari", "add": {"lat": 14.42, "lon": 29.08, "z": 10}, "from": "2026-09", "status": "saf", "kind": "update",
+   "note": "Armee et Force conjointe dans la ville le 25 septembre 2026. Sudan War Monitor geolocalise leur presence. Radio Tamazuj et Sudan Tribune rapportent l'annonce. Confirmation jugee faible. Ville absente de la carte source, sans couleur avant cette date.",
+   "sources": ["https://sudanwarmonitor.com/p/rsf-suffers-another-defeat-in-north-kordofan", "https://www.radiotamazuj.org/en/news/article/sudan-army-announces-capture-of-sodari-area-in-north-kordofan", "https://sudantribune.com/article/319247"]},
+  {"town": "Kazgeil", "from": "2026-10", "status": "x", "kind": "contested",
+   "note": "La carte source la donne a l'armee. Sudan War Monitor rapporte que l'armee y entre le 5 novembre 2026 et que les RSF y reviennent le soir meme. Etat de debut novembre, affiche sur le dernier mois.",
+   "sources": ["https://sudanwarmonitor.com/p/heavy-fighting-outside-el-obeid"]}
+ ],
+ "not_applied": [
+  {"town": "Al-Mazroub", "claim": "armee, 2 octobre 2026", "why": "annonce de l'armee, pas de confirmation independante parmi les sources retenues ; ville absente de la carte source", "sources": ["https://www.aljazeera.com/2026/10/2/sudans-army-says-it-captured-rsf-stronghold-in-north-kordofan"]},
+  {"town": "Iyal Bakhit", "claim": "armee, 7-8 novembre 2026", "why": "annonce de l'armee et de la Force conjointe, sans geolocalisation ni reaction des RSF", "sources": ["https://sudanwarmonitor.com/p/1c1"]},
+  {"town": "Umm Sumayma", "claim": "armee, 5 novembre 2026", "why": "une seule source independante (Sudan War Monitor)", "sources": ["https://sudanwarmonitor.com/p/heavy-fighting-outside-el-obeid"]},
+  {"town": "Kurmuk, Qaysan", "claim": "RSF et SPLM-N depuis les 11-13 aout 2026", "why": "deja dans le releve du 17 aout ; aucun changement signale depuis", "sources": ["https://www.aljazeera.com/news/2026/8/13/sudan-army-says-rsf-advance-on-key-town-bordering-ethiopia"]},
+  {"town": "Sali, Jabal Kadam, Bakori (Nil Bleu)", "claim": "garnisons disputees, septembre a novembre 2026", "why": "annonces contradictoires ; absentes de la carte source", "sources": ["https://sudanwarmonitor.com/p/rsf-seizes-another-strategic-army-garrison-in-blue-nile"]}
+ ]
+}
