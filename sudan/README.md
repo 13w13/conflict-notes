@@ -4,6 +4,12 @@ Note bilingue (FR/EN) sur la guerre au Soudan, avril 2023 à novembre 2026 : bel
 
 Bilingual note (FR/EN) on the war in Sudan, April 2023 to November 2026: belligerents, how the war is fought, month-by-month territorial control, displacement, hunger, humanitarian access. Static page, no server.
 
+## Relecture / Review
+
+Le 11 novembre 2026, quatre relectures automatiques indépendantes (sous-agents sans le contexte de rédaction) ont noté la version précédente : rédaction en chef en français 12,6/20, éditeur en anglais 12,5/20, comité de trois lecteurs 13, 12 et 11/20, infographie 2,5/5. La version actuelle applique leurs corrections : plan en trois parties, passé composé, auteur de chaque action nommé, formules imagées retirées, sigles et lieux expliqués, graphiques refaits. Elle n'a pas été renotée. Aucune personne connaissant le Soudan ne l'a relue.
+
+On 11 November 2026 four independent automated reviews (sub-agents without the drafting context) marked the previous version: French editor-in-chief 12.6/20, English editor 12.5/20, three-reader committee 13, 12 and 11/20, graphics desk 2.5/5. The current version applies their corrections. It has not been re-marked. No person who knows Sudan has reviewed it.
+
 ## Avertissement / Disclaimer
 
 L'auteur n'est pas analyste militaire. La note n'exprime la position d'aucune organisation. Les zones colorées sont une interprétation. Rédigée avec l'appui de Claude (Anthropic, modèles Opus 5.5 et Fable 5.2), qui a aussi collecté les données, vérifié les sources et écrit le code.
