@@ -108,3 +108,10 @@ dialog button{all:unset;cursor:pointer;display:block;margin:10px auto 0;font:500
 .d{background:var(--ink)}
 .d.lo{outline-color:var(--ink)}
 figure .pt+.sub{margin-top:-4px}
+
+/* Avertissement court, aligné sur la colonne de texte */
+.warn{border:0;border-left:3px solid var(--rule);padding:0 0 0 14px;gap:6px}
+.warn h2{font:600 .75rem/1.2 var(--f-data);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.warn ul{list-style:none;padding:0;gap:3px;max-width:70ch}
+.warn li{font:400 .8125rem/1.45 var(--f-data);color:var(--muted)}
+.lead{font-style:normal;font-weight:600}

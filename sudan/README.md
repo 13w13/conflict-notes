@@ -32,7 +32,7 @@ The author is not a military analyst. The note expresses no organisation's posit
 | Donnée / Data | Source | Licence, conditions |
 |---|---|---|
 | Contrôle territorial / territorial control | Wikipedia, [Module:2023 Sudanese Clashes detailed map](https://en.wikipedia.org/wiki/Module:2023_Sudanese_Clashes_detailed_map), relevés mensuels jusqu'au 17 août 2026 | CC BY-SA 4.0. Les séries de contrôle de `data.js` et `manual_updates.json` en sont dérivées et restent sous CC BY-SA 4.0, avec attribution aux contributeurs de Wikipedia. / The control series in `data.js` and `manual_updates.json` are derived from it and remain under CC BY-SA 4.0, with attribution to Wikipedia contributors. |
-| Violence | [ACLED](https://data.humdata.org/dataset/sudan-acled-conflict-data), agrégats mensuels par admin2 publiés sur HDX | [EULA](https://acleddata.com/eula) (mise à jour du 1er novembre 2026) et [politique d'attribution](https://acleddata.com/attributionpolicy) (5 novembre 2026). Voir la section ACLED ci-dessous avant toute mise en ligne publique. / See the ACLED section below before any public release. |
+| Violence | [ACLED](https://data.humdata.org/dataset/sudan-acled-conflict-data), agrégats mensuels par admin2 publiés sur HDX | [EULA](https://acleddata.com/eula) (mise à jour du 1er novembre 2026) et [politique d'attribution](https://acleddata.com/attributionpolicy) (5 novembre 2026). Usage autorisé par ACLED selon l'auteur, voir la section ACLED. / Use authorised by ACLED according to the author, see the ACLED section. |
 | Limites / boundaries | [COD-AB Soudan](https://data.humdata.org/dataset/cod-ab-sdn), OCHA | voir la fiche HDX / see the HDX page |
 | Déplacement / displacement | [OIM DTM](https://data.humdata.org/dataset/sdn-iom-dtm-from-api) | voir la fiche HDX |
 | Faim / hunger | [IPC](https://data.humdata.org/dataset/sudan-acute-food-insecurity-country-data) | voir la fiche HDX |
@@ -43,7 +43,11 @@ The author is not a military analyst. The note expresses no organisation's posit
 
 Téléchargements du 11 novembre 2026. Le texte de la note cite ses sources par des liens. / Downloads dated 11 November 2026. The text cites its sources by links.
 
-## ACLED : à régler avant publication / to settle before publishing
+## ACLED
+
+L'auteur a indiqué le 11 novembre 2026 disposer de l'autorisation d'ACLED pour cet usage. Garder la trace écrite de cet accord avec le dépôt. L'attribution demandée par ACLED figure sur la page, sous chaque graphique et en méthode. Le rappel des conditions ci-dessous reste utile si l'usage change.
+
+The author stated on 11 November 2026 that ACLED has authorised this use. Keep the written record of that agreement with the repository. The attribution ACLED requires is on the page, under each chart and in the method section. The summary of the terms below remains useful if the use changes.
 
 Relu le 11 novembre 2026. L'EULA n'autorise la publication que de travaux dérivés « transformatifs », qui ne permettent pas de reconstituer le jeu de données. Elle précise que réorganiser les données ou les présenter dans son propre tableau de bord ne suffit pas. Elle interdit aussi de laisser des robots ou des agents d'IA accéder aux données hors de l'API d'ACLED. `data.js` contient aujourd'hui les morts et événements par localité et par mois, ce qui est un cas limite que le texte ne tranche pas. Trois options : demander un accord écrit à ACLED, réduire `data.js` à des agrégats par région et par mois, ou retirer les cercles de la carte et ne garder que les graphiques. La politique d'attribution demande : la mention « ACLED (Armed Conflict Location & Event Data) » sur chaque visuel, un lien vers acleddata.com, la date d'accès, les filtres utilisés et ce qui a été modifié (ici : Soudan, avril 2023 à octobre 2026, violence politique, agrégation par localité et par mois, téléchargé de HDX le 11 novembre 2026). La licence affichée sur la page HDX n'a pas pu être lue automatiquement.
 
